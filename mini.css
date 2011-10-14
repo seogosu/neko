@@ -1,0 +1,58 @@
+/* Resets */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0; margin:15px;}
+
+/* Body */
+body {font-family: verdana,sans-serif}
+
+span#lbDlThis {
+	width: 50%;
+	text-align: left;
+}
+
+span#lbDlAll {
+	width: 50%;
+	text-align: right;
+}
+
+/* Sidebar */
+
+div.sidebar {
+  width: 200px;
+  margin-right: 1em;
+  float: left;
+  overflow: visible;
+}
+
+div.sidebar li {
+  list-style-type: none;
+  margin: 0;
+}
+
+div.sidebar ul {
+  margin: 0 0 1em 0;
+}
+
+/* Content */
+
+div.content {
+  float: left;
+  margin: 0;
+  width: 77%;
+}
